@@ -17,6 +17,14 @@ module.exports = {
 				'10p': '10%',
 				'20p': '20%',
 				'30p': '30%',
+				'40p': '40%',
+				'50p': '50%',
+				'60p': '60%',
+				'70p': '70%',
+				'80p': '80%',
+			},
+			screens: {
+				mob: { max: '1023px' },
 			},
 		},
 	},
@@ -32,6 +40,18 @@ module.exports = {
 					fontFamily: 'Rubik, sans-serif',
 					fontSize: '1.25rem',
 					fontWeight: 'bold',
+				},
+				'.full': {
+					height: '100%',
+					width: '100%',
+				},
+				'.row': {
+					display: 'flex',
+					flexDirection: 'row',
+				},
+				'.col': {
+					display: 'flex',
+					flexDirection: 'column',
 				},
 			})
 		}),
